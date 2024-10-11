@@ -1,0 +1,70 @@
+@import "./../common/mordern-reset.css";
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+section {
+  height: 330px;
+  block-size: 330px;
+  background-color: #171615;
+  margin-top: 100px;
+  margin-block-start: 100px;
+  figure {
+    position: relative;
+  }
+  img {
+    border-radius: 400px;
+  }
+  .img1 {
+    width: 300px;
+    inline-size: 300px;
+    height: 300px;
+    block-size: 300px;
+    position: absolute;
+    inset-block-start: -50px;
+    inset-inline-start: 150px;
+    box-shadow: 20px -10px 50px #171615;
+  }
+  .img2 {
+    width: 150px;
+    inline-size: 150px;
+    height: 150px;
+    block-size: 150px;
+    position: absolute;
+    inset-block-start: 100px;
+    inset-inline-start: 400px;
+  }
+}
+
+ul {
+  position: absolute;
+  inset-inline-end: 130px;
+  inset-block-start: 150px;
+  color: #ffffff;
+
+  .title-one {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-block-end: 10px;
+  }
+  .title-tow {
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    margin-block-end: 10px;
+  }
+  .contents {
+    font-size: 16px;
+    font-weight: 100;
+  }
+}
