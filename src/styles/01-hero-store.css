@@ -47,7 +47,7 @@
       border: 2px solid var(--Grayscale-White, #fffcf9);
     }
   }
-  .hero-store__landscape {
+  .hero-store__photo {
     list-style: "";
 
     .hero-store__item {
@@ -104,6 +104,5 @@
     position: relative;
 
     inset-block-end: 67px;
-    z-index: 2;
   }
 }
