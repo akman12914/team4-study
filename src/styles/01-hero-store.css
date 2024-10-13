@@ -1,0 +1,98 @@
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.cafe-w {
+  display: flex;
+  inline-size: 1440px;
+  block-size: 420px;
+  margin-top: 20vh;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background: radial-gradient(circle, #1e1e1e 0%, #000 80%, #000 100%);
+  color: white;
+}
+
+.img-container {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+  max-width: 486px;
+  max-height: 410px;
+}
+
+.img-container__img1 img,
+.img-container__img2 img {
+  border-radius: 50%;
+}
+
+.img-container__img1 img {
+  position: relative;
+  top: -110px;
+  width: 360px;
+  height: 360px;
+  z-index: 1;
+}
+
+.img-container__img2 img {
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  inset-block-end: 0;
+  inset-inline-end: 0;
+  z-index: 2;
+}
+
+.text-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  text-align: left;
+}
+
+.text-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.text-container p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.text-container button.search_more {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 3px;
+  font-size: 1rem;
+  cursor: pointer;
+  inline-size: 130px;
+  block-size: 40px;
+}
+
+.text-container button.search_more:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.coffee-store-img {
+  position: relative;
+  width: 152px;
+  height: 127px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: 30%;
+}
