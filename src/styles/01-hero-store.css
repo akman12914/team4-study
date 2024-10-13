@@ -1,0 +1,90 @@
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+body {
+  margin-block-start: 100px;
+}
+
+.banner {
+  inline-size: 1440px;
+  block-size: 420px;
+  background-color: yellow;
+  text-align: center;
+  align-content: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: start;
+  align-content: start;
+  position: absolute;
+  color: white;
+  background: white url(./../assets/img/Hero\ Store.png) border-box no-repeat 20px 20px / cover;
+}
+
+.img-set {
+  display: flex;
+  flex-flow: row nowrap;
+
+  .img-first {
+    top: -68px;
+    position: relative;
+    inline-size: 360px;
+    block-size: 360px;
+    border-radius: 50%;
+    margin-block-end: 60px;
+  }
+
+  .img-2nd {
+    position: relative;
+    top: 140px;
+    left: -87px;
+    inline-size: 220px;
+    block-size: 220px;
+    border-radius: 50%;
+  }
+}
+
+.content {
+  position: relative;
+  top: 55px;
+  text-align: left;
+  line-height: 1.2;
+
+  .title {
+    font-size: 25px;
+    margin-block: 10px;
+  }
+
+  .sub-title {
+    font-size: 18px;
+    margin-block: 10px;
+  }
+
+  p {
+    margin-block: 15px;
+  }
+}
+
+.store-gps {
+  position: relative;
+  inline-size: 128px;
+  block-size: 40px;
+  border-radius: 3px;
+  top: 274px;
+  left: -456px;
+}
+
+.img-hs {
+  top: 292px;
+  left: -420px;
+  position: relative;
+}
