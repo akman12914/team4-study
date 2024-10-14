@@ -2,6 +2,8 @@
 @import "./../common/best-reset.css";
 
 .hero-store {
+  --Grayscale-White: #fffcf9;
+
   inline-size: 100%;
   height: 420px;
   block-size: 420px;
