@@ -44,6 +44,7 @@ a {
   .main-title {
     margin-bottom: 0.55rem;
     margin-block-end: 0.55rem;
+    font-size: 1.75rem;
   }
   .main-title b {
     color: #e36b5e;
@@ -68,6 +69,11 @@ a {
   .info-list-item {
     padding: 2.5rem;
 
+    a {
+      display: block;
+      height: 100%;
+    }
+
     p {
       font-size: 0.875rem;
       font-weight: 400;
@@ -80,7 +86,10 @@ a {
   grid-column: 1 / span 3;
   grid-row: 1 / span 1;
   background-color: #ffc516;
-  align-content: end;
+
+  a {
+    align-content: end;
+  }
 }
 
 .info-list-item2 {
@@ -94,7 +103,6 @@ a {
   grid-row: 1 / span 2;
   background-color: #fff;
   border: 1px solid #dedede;
-  align-content: start;
 
   .info-list__title {
     color: #121212;
@@ -120,12 +128,14 @@ a {
   grid-column: 8 / span 3;
   grid-row: 1 / span 1;
   background-color: #9b8e82;
-  align-content: end;
+
+  a {
+    align-content: end;
+  }
 }
 
 .info-list-item5 {
   grid-column: 8 / span 3;
   grid-row: 2 / span 1;
   background-color: #8c8c8c;
-  align-content: start;
 }
