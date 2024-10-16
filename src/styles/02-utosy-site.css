@@ -12,7 +12,6 @@
     background-color: orange;
     grid-column: review;
     block-size: 12vh;
-    align-items: center;
     display: grid;
 
     h1,
