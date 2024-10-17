@@ -1,0 +1,60 @@
+@import './../common/mordern-reset.css';
+@import './../common/base.css';
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
+  height: 100vh;
+  gap: 10px;
+  padding: 5rem;
+
+  .header {
+    display: grid;
+    min-height: 5rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    background-color: var(--green);
+    text-align: center;
+    margin: 0 10rem;
+    padding: 10px;
+  }
+
+  .main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  section {
+    background-color: var(--blue);
+    padding: 20px;
+  }
+
+  span {
+    color: red;
+  }
+
+  .tour-review {
+    grid-row: span 2;
+  }
+
+  .footer {
+    display: grid;
+    min-height: 7rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    color: white;
+    gap: 1rem;
+  }
+
+  .footer-item {
+    background-color: var(--orange);
+    padding: 20px;
+  }
+}
